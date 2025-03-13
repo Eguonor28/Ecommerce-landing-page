@@ -116,6 +116,12 @@ img {
   object-fit: cover;
   border-radius: 20px;
 }
+.product_name {
+  font-weight: 800;
+}
+.product_description {
+  padding: 5px 5px 0px 5px;
+}
 .shop_now {
   padding: 10px;
   border-radius: 50px;
