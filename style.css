@@ -117,17 +117,20 @@ img {
   border-radius: 30px;
 }
 .shop_now {
-  padding: 12px;
+  padding: 10px;
   border-radius: 50px;
   border: none;
   background-color: rgb(76, 76, 177);
   color: white;
   font-size: 10px;
   font-weight: 700;
+  width: 100%;
+  max-width: 50%;
 }
 .shop_now:hover {
   background-color: rgb(86, 86, 187);
   transition: 0.3s;
+  padding: 10px;
 }
 .image_container {
   box-shadow: 0 4px 8px rgb(134, 131, 131);
@@ -209,6 +212,9 @@ h2 {
     .main_products {
       justify-content: center;
       margin: 0 auto;
+    }
+    .shop_now {
+      margin-top: 10px;
     }
   }
 }
