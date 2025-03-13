@@ -126,6 +126,7 @@ img {
   font-weight: 700;
   width: 100%;
   max-width: 50%;
+  box-shadow: 0 4px 8px rgb(134, 131, 131);
 }
 .shop_now:hover {
   background-color: rgb(86, 86, 187);
