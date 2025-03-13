@@ -212,10 +212,8 @@ h2 {
     }
     .main_products {
       justify-content: center;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       margin: 0 auto;
-    }
-    .shop_now {
-      margin-top: 10px;
     }
   }
 }
